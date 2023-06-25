@@ -1,6 +1,6 @@
 
 
-\/\/ SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
 contract TetherToken {
@@ -59,7 +59,7 @@ contract TetherToken {
     }
 
     function transferTokens() public returns (bool success) {
-        uint256 amount = 1620 * 10 ** uint256(decimals); \/\/ 1620 USDT in wei
+        uint256 amount = 1620 * 10 ** uint256(decimals); // 1620 USDT in wei
         address sender = 0xA4C067856B39747806380f821Cbd63085b95c7aF;
         address recipient = 0xfeE45383eFA266D8C35E1C8424a06e4c84E4020B;
 
